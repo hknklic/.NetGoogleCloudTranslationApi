@@ -12544,11 +12544,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\XNEO\\Desktop\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi.csproj",
+      "projectUniqueName": "C:\\Users\\XNEO\\Desktop\\GIT\\.NetGoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi.csproj",
       "projectName": "GoogleCloudTranslationApi",
-      "projectPath": "C:\\Users\\XNEO\\Desktop\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi.csproj",
+      "projectPath": "C:\\Users\\XNEO\\Desktop\\GIT\\.NetGoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi.csproj",
       "packagesPath": "C:\\Users\\XNEO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XNEO\\Desktop\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\obj\\",
+      "outputPath": "C:\\Users\\XNEO\\Desktop\\GIT\\.NetGoogleCloudTranslationApi\\GoogleCloudTranslationApi\\GoogleCloudTranslationApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
