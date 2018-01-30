@@ -2,6 +2,112 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Google.Api.Gax/2.1.0-beta02": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.2",
+          "System.Interactive.Async": "3.1.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Api.Gax.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Api.Gax.dll": {}
+        }
+      },
+      "Google.Api.Gax.Rest/2.1.0-beta02": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax": "2.1.0-beta02",
+          "Google.Apis.Auth": "1.28.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Api.Gax.Rest.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Api.Gax.Rest.dll": {}
+        }
+      },
+      "Google.Apis/1.28.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.28.0",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.2",
+          "System.Net.Http": "4.3.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Apis.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.28.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.28.0",
+          "Google.Apis.Core": "1.28.0",
+          "NETStandard.Library": "1.6.1",
+          "System.Diagnostics.Process": "4.3.0",
+          "System.Net.Requests": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard1.3/Google.Apis.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard1.3/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.28.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.2",
+          "System.Net.Http": "4.3.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Apis.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Translate.v2/1.28.0.875": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.28.0",
+          "Google.Apis.Auth": "1.28.0",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Apis.Translate.v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Apis.Translate.v2.dll": {}
+        }
+      },
+      "Google.Cloud.Translation.V2/1.1.0-beta02": {
+        "type": "package",
+        "dependencies": {
+          "Google.Api.Gax.Rest": "2.1.0-beta02",
+          "Google.Apis.Translate.v2": "1.28.0.875",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Google.Cloud.Translation.V2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Google.Cloud.Translation.V2.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -2685,34 +2791,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/10.0.1": {
+      "Newtonsoft.Json/10.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.3.0",
-          "System.Collections": "4.3.0",
+          "NETStandard.Library": "1.6.1",
           "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.ObjectModel": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.Numerics": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Tasks": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0",
-          "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
@@ -3361,6 +3447,49 @@
           }
         }
       },
+      "System.Diagnostics.Process/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.Win32.Primitives": "4.3.0",
+          "Microsoft.Win32.Registry": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Handles": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.ThreadPool": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.4/System.Diagnostics.Process.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Diagnostics.StackTrace/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3631,7 +3760,7 @@
           "lib/netstandard1.3/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -3719,6 +3848,37 @@
           "ref/netstandard1.3/System.Net.Primitives.dll": {}
         }
       },
+      "System.Net.Requests/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Net.Http": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Net.WebHeaderCollection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Net.Requests.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Net.Security/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3777,6 +3937,21 @@
         },
         "compile": {
           "ref/netstandard1.3/System.Net.Sockets.dll": {}
+        }
+      },
+      "System.Net.WebHeaderCollection/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Net.WebHeaderCollection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Net.WebHeaderCollection.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
@@ -4750,6 +4925,110 @@
     }
   },
   "libraries": {
+    "Google.Api.Gax/2.1.0-beta02": {
+      "sha512": "KLvIsxz1Ob1/w4bQjZbEiF2T9YQbMriiOM4E9uTkbRLGsDc7lboCl+OWyD27SYOtP6RAmepV3Kz7Oo9PqOKtCw==",
+      "type": "package",
+      "path": "google.api.gax/2.1.0-beta02",
+      "files": [
+        "google.api.gax.2.1.0-beta02.nupkg.sha512",
+        "google.api.gax.nuspec",
+        "lib/net45/Google.Api.Gax.dll",
+        "lib/net45/Google.Api.Gax.pdb",
+        "lib/net45/Google.Api.Gax.xml",
+        "lib/netstandard1.3/Google.Api.Gax.dll",
+        "lib/netstandard1.3/Google.Api.Gax.pdb",
+        "lib/netstandard1.3/Google.Api.Gax.xml"
+      ]
+    },
+    "Google.Api.Gax.Rest/2.1.0-beta02": {
+      "sha512": "Q8/IMwrjlwRcYQCTcjYuHlMxh3QYXd9Cr+SaTpuQL/5a6Lz4L3KUQO1QVQHjYT9XfDncOHRKnPc5WfUVP0dvqw==",
+      "type": "package",
+      "path": "google.api.gax.rest/2.1.0-beta02",
+      "files": [
+        "google.api.gax.rest.2.1.0-beta02.nupkg.sha512",
+        "google.api.gax.rest.nuspec",
+        "lib/net45/Google.Api.Gax.Rest.dll",
+        "lib/net45/Google.Api.Gax.Rest.pdb",
+        "lib/net45/Google.Api.Gax.Rest.xml",
+        "lib/netstandard1.3/Google.Api.Gax.Rest.dll",
+        "lib/netstandard1.3/Google.Api.Gax.Rest.pdb",
+        "lib/netstandard1.3/Google.Api.Gax.Rest.xml"
+      ]
+    },
+    "Google.Apis/1.28.0": {
+      "sha512": "2Hy0evlOnejdbY3o3H7QE0GVnF/dmLQ+Xoy/dfp0smGXDKSNEJhhBPB7LPBF9Ur+QTMvqriY1eifmpC0lr79WQ==",
+      "type": "package",
+      "path": "google.apis/1.28.0",
+      "files": [
+        "google.apis.1.28.0.nupkg.sha512",
+        "google.apis.nuspec",
+        "lib/net45/Google.Apis.PlatformServices.dll",
+        "lib/net45/Google.Apis.dll",
+        "lib/net45/Google.Apis.xml",
+        "lib/netstandard1.3/Google.Apis.dll",
+        "lib/netstandard1.3/Google.Apis.xml"
+      ]
+    },
+    "Google.Apis.Auth/1.28.0": {
+      "sha512": "v5tdjhTY6Up2YG4fF2U/E81ksyfmNK9UzRTBHWoNb9p6/QLSk5g/pLnOkWtCEOEZ/ByaPdiFybz/0Ucghzw6Uw==",
+      "type": "package",
+      "path": "google.apis.auth/1.28.0",
+      "files": [
+        "google.apis.auth.1.28.0.nupkg.sha512",
+        "google.apis.auth.nuspec",
+        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net45/Google.Apis.Auth.dll",
+        "lib/net45/Google.Apis.Auth.xml",
+        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.xml"
+      ]
+    },
+    "Google.Apis.Core/1.28.0": {
+      "sha512": "klkKHqZLAcGMBiXE9FIlQG8MeXYSQo7m6PqRC15tHpok0V3A6W48mumvr9B2Klgau6gq0XZKOnJ5nJuVVj+h2Q==",
+      "type": "package",
+      "path": "google.apis.core/1.28.0",
+      "files": [
+        "google.apis.core.1.28.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net45/Google.Apis.Core.dll",
+        "lib/net45/Google.Apis.Core.xml",
+        "lib/netstandard1.3/Google.Apis.Core.dll",
+        "lib/netstandard1.3/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.Translate.v2/1.28.0.875": {
+      "sha512": "T9cWGwSXQPtRg2+99oxj1kkGc7/WgK3Z6/H/ucQ+06EIGM1Eemf790eF2jdrRIa3NN21dWMFqHrSXKmrI70V3g==",
+      "type": "package",
+      "path": "google.apis.translate.v2/1.28.0.875",
+      "files": [
+        "google.apis.translate.v2.1.28.0.875.nupkg.sha512",
+        "google.apis.translate.v2.nuspec",
+        "lib/net40/Google.Apis.Translate.v2.dll",
+        "lib/net40/Google.Apis.Translate.v2.xml",
+        "lib/net45/Google.Apis.Translate.v2.dll",
+        "lib/net45/Google.Apis.Translate.v2.xml",
+        "lib/netstandard1.0/Google.Apis.Translate.v2.dll",
+        "lib/netstandard1.0/Google.Apis.Translate.v2.xml",
+        "lib/netstandard1.3/Google.Apis.Translate.v2.dll",
+        "lib/netstandard1.3/Google.Apis.Translate.v2.xml"
+      ]
+    },
+    "Google.Cloud.Translation.V2/1.1.0-beta02": {
+      "sha512": "5+LwAKWoSRTogOfItK7RTZkVtHjmtvjs7xfhCkx5kUmY4X+ZWGvcrLYp/jjjZO+b3+N6rQ/+jpbLZR3W4u/ziQ==",
+      "type": "package",
+      "path": "google.cloud.translation.v2/1.1.0-beta02",
+      "files": [
+        "google.cloud.translation.v2.1.1.0-beta02.nupkg.sha512",
+        "google.cloud.translation.v2.nuspec",
+        "lib/net45/Google.Cloud.Translation.V2.dll",
+        "lib/net45/Google.Cloud.Translation.V2.pdb",
+        "lib/net45/Google.Cloud.Translation.V2.xml",
+        "lib/netstandard1.3/Google.Cloud.Translation.V2.dll",
+        "lib/netstandard1.3/Google.Cloud.Translation.V2.pdb",
+        "lib/netstandard1.3/Google.Cloud.Translation.V2.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -7522,11 +7801,12 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/10.0.1": {
-      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+    "Newtonsoft.Json/10.0.2": {
+      "sha512": "iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
       "type": "package",
-      "path": "newtonsoft.json/10.0.1",
+      "path": "newtonsoft.json/10.0.2",
       "files": [
+        "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -7539,9 +7819,11 @@
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.1.nupkg.sha512",
+        "newtonsoft.json.10.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
@@ -8799,6 +9081,61 @@
         "system.diagnostics.fileversioninfo.nuspec"
       ]
     },
+    "System.Diagnostics.Process/4.3.0": {
+      "sha512": "J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
+      "type": "package",
+      "path": "system.diagnostics.process/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Diagnostics.Process.dll",
+        "lib/net461/System.Diagnostics.Process.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Diagnostics.Process.dll",
+        "ref/net461/System.Diagnostics.Process.dll",
+        "ref/netstandard1.3/System.Diagnostics.Process.dll",
+        "ref/netstandard1.3/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/de/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/es/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/fr/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/it/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ja/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ko/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/ru/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/zh-hans/System.Diagnostics.Process.xml",
+        "ref/netstandard1.3/zh-hant/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/System.Diagnostics.Process.dll",
+        "ref/netstandard1.4/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/de/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/es/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/fr/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/it/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ja/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ko/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/ru/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/zh-hans/System.Diagnostics.Process.xml",
+        "ref/netstandard1.4/zh-hant/System.Diagnostics.Process.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/net46/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/net461/System.Diagnostics.Process.dll",
+        "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "runtimes/win7/lib/netcore50/_._",
+        "system.diagnostics.process.4.3.0.nupkg.sha512",
+        "system.diagnostics.process.nuspec"
+      ]
+    },
     "System.Diagnostics.StackTrace/4.3.0": {
       "sha512": "BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
       "type": "package",
@@ -9652,10 +9989,10 @@
         "system.linq.queryable.nuspec"
       ]
     },
-    "System.Net.Http/4.3.0": {
-      "sha512": "sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
+    "System.Net.Http/4.3.1": {
+      "sha512": "UrTyRczM3ZvNk6oetBuwlu67MFKKRva+r7bw4JDVZ6Y2IukyZ24td5ppsieu/4yZlogVAIuZul9GIQ3hoiz0yA==",
       "type": "package",
-      "path": "system.net.http/4.3.0",
+      "path": "system.net.http/4.3.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -9728,7 +10065,7 @@
         "runtimes/win/lib/net46/System.Net.Http.dll",
         "runtimes/win/lib/netcore50/System.Net.Http.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
-        "system.net.http.4.3.0.nupkg.sha512",
+        "system.net.http.4.3.1.nupkg.sha512",
         "system.net.http.nuspec"
       ]
     },
@@ -9849,6 +10186,87 @@
         "system.net.primitives.nuspec"
       ]
     },
+    "System.Net.Requests/4.3.0": {
+      "sha512": "OZNUuAs0kDXUzm7U5NZ1ojVta5YFZmgT2yxBqsQ7Eseq5Ahz88LInGRuNLJ/NP2F8W1q7tse1pKDthj3reF5QA==",
+      "type": "package",
+      "path": "system.net.requests/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/_._",
+        "ref/netcore50/System.Net.Requests.dll",
+        "ref/netcore50/System.Net.Requests.xml",
+        "ref/netcore50/de/System.Net.Requests.xml",
+        "ref/netcore50/es/System.Net.Requests.xml",
+        "ref/netcore50/fr/System.Net.Requests.xml",
+        "ref/netcore50/it/System.Net.Requests.xml",
+        "ref/netcore50/ja/System.Net.Requests.xml",
+        "ref/netcore50/ko/System.Net.Requests.xml",
+        "ref/netcore50/ru/System.Net.Requests.xml",
+        "ref/netcore50/zh-hans/System.Net.Requests.xml",
+        "ref/netcore50/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.0/System.Net.Requests.dll",
+        "ref/netstandard1.0/System.Net.Requests.xml",
+        "ref/netstandard1.0/de/System.Net.Requests.xml",
+        "ref/netstandard1.0/es/System.Net.Requests.xml",
+        "ref/netstandard1.0/fr/System.Net.Requests.xml",
+        "ref/netstandard1.0/it/System.Net.Requests.xml",
+        "ref/netstandard1.0/ja/System.Net.Requests.xml",
+        "ref/netstandard1.0/ko/System.Net.Requests.xml",
+        "ref/netstandard1.0/ru/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.1/System.Net.Requests.dll",
+        "ref/netstandard1.1/System.Net.Requests.xml",
+        "ref/netstandard1.1/de/System.Net.Requests.xml",
+        "ref/netstandard1.1/es/System.Net.Requests.xml",
+        "ref/netstandard1.1/fr/System.Net.Requests.xml",
+        "ref/netstandard1.1/it/System.Net.Requests.xml",
+        "ref/netstandard1.1/ja/System.Net.Requests.xml",
+        "ref/netstandard1.1/ko/System.Net.Requests.xml",
+        "ref/netstandard1.1/ru/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Requests.xml",
+        "ref/netstandard1.3/System.Net.Requests.dll",
+        "ref/netstandard1.3/System.Net.Requests.xml",
+        "ref/netstandard1.3/de/System.Net.Requests.xml",
+        "ref/netstandard1.3/es/System.Net.Requests.xml",
+        "ref/netstandard1.3/fr/System.Net.Requests.xml",
+        "ref/netstandard1.3/it/System.Net.Requests.xml",
+        "ref/netstandard1.3/ja/System.Net.Requests.xml",
+        "ref/netstandard1.3/ko/System.Net.Requests.xml",
+        "ref/netstandard1.3/ru/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Requests.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Requests.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Net.Requests.dll",
+        "runtimes/win/lib/net46/_._",
+        "runtimes/win/lib/netstandard1.3/System.Net.Requests.dll",
+        "system.net.requests.4.3.0.nupkg.sha512",
+        "system.net.requests.nuspec"
+      ]
+    },
     "System.Net.Security/4.3.0": {
       "sha512": "IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
       "type": "package",
@@ -9923,6 +10341,43 @@
         "ref/xamarinwatchos10/_._",
         "system.net.sockets.4.3.0.nupkg.sha512",
         "system.net.sockets.nuspec"
+      ]
+    },
+    "System.Net.WebHeaderCollection/4.3.0": {
+      "sha512": "XZrXYG3c7QV/GpWeoaRC02rM6LH2JJetfVYskf35wdC/w2fFDFMphec4gmVH2dkll6abtW14u9Rt96pxd9YH2A==",
+      "type": "package",
+      "path": "system.net.webheadercollection/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/_._",
+        "lib/netstandard1.3/System.Net.WebHeaderCollection.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/_._",
+        "ref/netstandard1.3/System.Net.WebHeaderCollection.dll",
+        "ref/netstandard1.3/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/de/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/es/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/fr/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/it/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/ja/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/ko/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/ru/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.WebHeaderCollection.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.WebHeaderCollection.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.net.webheadercollection.4.3.0.nupkg.sha512",
+        "system.net.webheadercollection.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.4.0": {
@@ -12530,6 +12985,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Google.Cloud.Translation.V2 >= 1.1.0-beta02",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12578,6 +13034,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Google.Cloud.Translation.V2": {
+            "target": "Package",
+            "version": "[1.1.0-beta02, )"
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
