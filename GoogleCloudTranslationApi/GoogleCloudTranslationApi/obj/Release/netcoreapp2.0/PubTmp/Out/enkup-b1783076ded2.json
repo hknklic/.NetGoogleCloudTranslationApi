@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "enkup-193709",
+  "private_key_id": "b1783076ded2bf2c17b1127c2630092c419eaa61",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC68wnC1gfZGL7D\naLieDs8uTP50Ajg3ocVd3n1zH9JKMyZ6TMyorbA8X/DIBnjfCeFQ12coQIXvwYkV\nc0E+5uLU+CV9zFq4pIgvE3NUCfFrCYJcrTnAtwlJ7GWy92yvP1YNTg8iotM6vLa0\nyF/YBxS+Tu5zUJXOTHeHOyWdN7hBRB+ED4ZTV6R/xpcTsbd5yy2DK4FKjw0bHAT9\nQeZ2jeccUirTAddalcNImdrsj4U1Dj3DdfU/y8n+7FVPMYYi+31s2dVUALiuiz9k\nf+rOJXZoxwhgMWsOa+Ph/NrNDpj47QOnFDpEgrL880dhjuzIuw9bQ6nifQDeTxh4\nt9MaG+ldAgMBAAECggEAR/TN2AFbifMdUcdX7/ZRRkf6VJqaGseYWPYPISWpYkfn\n0oEG8RHRWJuw6Lyc/3QlFmGiYfrb0pmScwAmp9hkjIZqn83tSU6C4GPDKyCcnI9P\nbu554TRSTfLAfi7/1UAylfJqnvE/Dkeep1zMjzDCijGFVDs7PeluxE0+wBG3SN8Q\nMn7TKWsi3g+ncZmHwyGX1M6/C+mVYTQh1PmKDeI0ICCzYm0BJ0LFgwFghsMQ6hjN\ne7xXA1W7eb5wkuiWgKIPsq63aSSdZL17lB5JAqWdmC+O6kD+XYEFomWcConvNtfd\n/KtZUuqtYPo2fjZuH5ODHY8ZDwDandnY5tp34iRtHQKBgQDf2RRKeE4i9QFvJMC1\nHGUISLTnZRQDrmI2pJ/ZwPiIYls0S22YJwHSPiTULWPj94RR1twvOIDZwu4XLYvJ\nZQW8SOp/3i6RTzq1ceEihqwPddee7x7j3rjgsSPlrWnstohzIQeLtfouHXCGTny/\nihXwhDzrITkIlsjoWYSL9MHkwwKBgQDVzTE6aXsRD/yAbVfh7uL5bs3hkdloAJOT\nXwsOvBinLKLdsc3A43cSKH+QvzHifAblfqGukW3CqXpOjv9i6fqpvXrd6RGg0/G8\nqiZoYpr7S0HoyfxY0nrZLmYxJsSSmHusvdqG+WtB59Ofxb0to/PgkSkpwuuuKq1N\nrYV5f1OXXwKBgHkW+P7/7WTDnK7+9rACWDUO/61c5GLJZp+glkg5Nziv3B6B3xs7\nnqSYsVuF4k9jidSrohh5PFqQNDOdk8yyNVQRLalWC2LXtS6KF/uRVmpWmPmE6PTj\neqcxq/WGxZIje9SrvWU6X8eqbUB6HMmQbSXaowmewzd+OdhW9HixQmH5AoGARv9b\nwJz0fCcF35Pv4hwVDWWpQqXPP0UpvH+MSXlW6nTdJKd9vvcKPGJsciG7rA0psR4L\nDNBIVaM39UxxLGSsk59TZMuXygN3vAH4vSM5egd0vJwOi2Rh3SsWTm4kStYOA8AM\nCFRdNMaKNP1SJAzU2Jb7x11uLCkJ4cikkUMh/BsCgYAoR309Z7Kt0/O3DmgfN8a8\nEM8EmDdWdWsDJyBnoN9EfVl1/2EGFrvMfAFWKWIWhC6lSRSuh3NES+8jAzODFgBr\nNRiVg/lQ3XF0TPTVz5lqJ+vi6rRr+fpsIC1ASNQI7zzPgZlrzLOsmga+TMx6iu9+\ne3YyXei9iuMvGdJWOV8aIQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "enkup-translate@enkup-193709.iam.gserviceaccount.com",
+  "client_id": "100503269422807898299",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/enkup-translate%40enkup-193709.iam.gserviceaccount.com"
+}

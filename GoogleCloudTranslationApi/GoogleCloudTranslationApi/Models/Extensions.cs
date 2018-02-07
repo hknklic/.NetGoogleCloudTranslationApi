@@ -235,29 +235,6 @@ namespace GoogleCloudTranslationApi.Models
             }
         }
 
-        public static byte[] fGetByteArray(this Bitmap _Img)
-        {
-            ImageConverter converter = new ImageConverter();
-            return (byte[])converter.ConvertTo(_Img, typeof(byte[]));
-        }
-
-        public static byte[] fGetByteArray(this Image imageIn)
-        {
-            using (var ms = new MemoryStream())
-            {
-                imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
-                return ms.ToArray();
-            }
-        }
-
-        public static Image fGetImage(this byte[] _ByteArray)
-        {
-            using (MemoryStream mStream = new MemoryStream(_ByteArray))
-            {
-                return Image.FromStream(mStream);
-            }
-        }
-
         #endregion
 
         public static short ToShortValue(this bool _bool)
@@ -402,19 +379,7 @@ namespace GoogleCloudTranslationApi.Models
 
             return _SearchContent.LastIndexOf(_SearchingValue);
         }
-
-        public static Image fGetImageFromBase64String(this string _Str)
-        {
-            byte[] bytes = Convert.FromBase64String(_Str);
-
-            Image image;
-            using (MemoryStream ms = new MemoryStream(bytes))
-            {
-                image = Image.FromStream(ms);
-            }
-
-            return image;
-        }
+        
 
         #region LINQ EXTENSIONS
         public static IEnumerable<T> OrderByDynamic<T>(this IEnumerable<T> source, string propertyName, OrderDirection direction = OrderDirection.Ascending)

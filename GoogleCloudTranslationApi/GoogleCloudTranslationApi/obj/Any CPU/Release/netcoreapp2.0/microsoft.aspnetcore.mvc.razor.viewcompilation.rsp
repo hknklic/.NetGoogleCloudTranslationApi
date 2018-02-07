@@ -1,0 +1,10 @@
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=GoogleCloudTranslationApi
+--content-root=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\Home\Index.cshtml
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\Shared\Error.cshtml
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\Shared\_Layout.cshtml
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\_ViewImports.cshtml
+--file=C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\Views\_ViewStart.cshtml

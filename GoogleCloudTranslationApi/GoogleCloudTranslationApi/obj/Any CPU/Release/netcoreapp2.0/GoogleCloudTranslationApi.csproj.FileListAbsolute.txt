@@ -1,0 +1,10 @@
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\bin\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.deps.json
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\bin\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.runtimeconfig.json
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\bin\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.runtimeconfig.dev.json
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\bin\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.dll
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\bin\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.pdb
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\obj\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.csproj.CoreCompileInputs.cache
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\obj\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.AssemblyInfoInputs.cache
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\obj\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.AssemblyInfo.cs
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\obj\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.dll
+C:\Users\XNEO\Desktop\GIT\.NetGoogleCloudTranslationApi\GoogleCloudTranslationApi\GoogleCloudTranslationApi\obj\Any CPU\Release\netcoreapp2.0\GoogleCloudTranslationApi.pdb
